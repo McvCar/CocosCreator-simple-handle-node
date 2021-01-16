@@ -1,0 +1,14 @@
+{
+  "name": "simple-handle-node",
+  "version": "0.0.1",
+  "description": "快速显示/隐藏选中的Node",
+  "author": "MCV",
+  "main": "main.js",
+	"scene-script": "panel/scene-info.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/简化操作/显示|隐藏选中Node": {
+      "message": "simple-handle-node:set-active",
+			"accelerator": "alt+s"
+    }
+  }
+}
